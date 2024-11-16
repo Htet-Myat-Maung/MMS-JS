@@ -261,3 +261,57 @@
 // for(let i=100; i>=1; i--){
 //     console.log(i);
 // }
+
+
+// let myName = "Htet Myat Maung";
+// console.log(`I'm ${myName} !`);
+
+
+// const fruits = [ "Apple", "Orange", "Mango", "Lame"];
+
+// console.log(fruits);
+
+// console.log(fruits[0]); //access elements
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits[3]);
+// console.log(fruits[4]);
+
+// fruits[3] = "Kiwi"; //overwrite elements
+// console.log(fruits);
+
+// const names = [];
+
+// names[0] = "htet myat";
+// names[1] = "kyi phyu";
+// names[2] = "zaw zaw";
+// names[3] = "kyaw kyaw";
+// names[9] = "lay lay"; //empty will be 5 in between
+
+// console.log(names);
+
+// const aboutMe = {
+//     name: "Htet Myat Maung",
+//     age: 21,
+//     skill: ["html", "css", "javascript"],
+// };
+// console.log(aboutMe);
+// console.log(aboutMe.name);
+// console.log(aboutMe.age);
+// console.log(aboutMe.skill);
+// console.log(aboutMe.skill[0]);
+// console.log(aboutMe.skill[1]);
+// console.log(aboutMe.skill[2]);
+
+// const obj = {};
+
+// let z = "c"
+
+// obj.a = "aaa";
+// obj.b = "bbb";
+// obj.c = "ccc";
+// console.log(obj);
+
+// console.log(obj.a);
+// console.log(obj["b"]);
+// console.log(obj[z]);

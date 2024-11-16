@@ -35,3 +35,7 @@ Javascript Operators
 for..in
 - Object ကို loop ပတ်ဖို့
 
+
+- ${expression};
+- [] construction ဆောက်တဲ့အခါ index မကျော်ဖို့သတိထားရမယ်,
+  သတိမထားရင် empty and length တွေပြောင်းသွားတတ်တယ်.

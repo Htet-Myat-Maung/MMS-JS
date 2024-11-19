@@ -28,7 +28,7 @@ Javascript Operators
 - Logical Operators (တစ်ခုထက်ပိုနှိုင်းယှဥ်)
     ( &,||,!)
 
-်or..of
+for..of
 - Array ကို loop ပတ်ဖို့
 - Object ကို for of နဲ့ပတ်လို့မရ
 
@@ -39,3 +39,13 @@ for..in
 - ${expression};
 - [] construction ဆောက်တဲ့အခါ index မကျော်ဖို့သတိထားရမယ်,
   သတိမထားရင် empty and length တွေပြောင်းသွားတတ်တယ်.
+
+- Object မှာ Key and Value ကတူနေခဲ့မယ်ဆိုရင် ၂ခါရေးစရာမလိုဘူး Es6 မှာ တစ်ခါပဲရေးလို့ရတယ်,
+
+function area(width,height) {
+    return width * height
+};
+- width and height is called parameter
+
+area(16,60);
+-16 and 60 is called arguments

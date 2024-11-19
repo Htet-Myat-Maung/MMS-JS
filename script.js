@@ -28,7 +28,7 @@
 // console.log(mySelf.township);
 // _________________________________________________________________________________________________________________________________________________________________________________________
 
-// Arithmetic Operators 
+// Arithmetic Operators
 // console.log(2+2);
 // console.log(2-2);
 // console.log(6/2);
@@ -40,16 +40,15 @@
 // console.log(x = 10);
 // console.log(x += 3); //cuz x = 3 ,now we added 3 to x so the answer will be =13;
 // console.log(x -= 3); // now we substrate 3 so the answer is 10;
-// console.log(x *= 3); 
+// console.log(x *= 3);
 // console.log(x /= 2);
 // console.log(x %= 4);
 // console.log(x **= 2);
 // _________________________________________________________________________________________________________________________________________________________________________________________
 
-
 //String Operators
 // let firstName = "Htet";
-// let middleName = "Myat" 
+// let middleName = "Myat"
 // let lastName = "Maung";
 // console.log(myName = firstName + middleName + lastName);
 
@@ -72,12 +71,11 @@
 // console.log(5 >= 8);
 // _________________________________________________________________________________________________________________________________________________________________________________________
 
-
-// function 
+// function
 // find Age! , Require birth year
-// born 1994 age? 
-// born 2003 age? 
-// born 2007 age? 
+// born 1994 age?
+// born 2003 age?
+// born 2007 age?
 // formula => currentYear - birthYear
 
 // function findAge(birthYear){
@@ -120,7 +118,7 @@
 // console.log("Tax = " + tax);
 
 // let netTotal = total + tax;
-// console.log("cash = " + netTotal); 
+// console.log("cash = " + netTotal);
 
 // if (netTotal > 10000) {
 //     console.log("U got lucky draw");
@@ -129,7 +127,6 @@
 // console.log("cash = " + total + tax); ဆိုရင် stringတွေပါလာရင် stringအချင်း"ပဲပေါင်းတာမို့သတ်သတ်ပေါင်းပေးရမယ်...
 // console.log("cash = " + (total+tax)); လို့လဲသုံးလို့ရတယ်...
 // _________________________________________________________________________________________________________________________________________________________________________________________
-
 
 // is Even or is Odd
 // number/2
@@ -152,7 +149,6 @@
 // console.log(findEvenOdd(20));
 // _________________________________________________________________________________________________________________________________________________________________________________________
 
-
 // let result = "Over all passed";
 
 // function findPassFail (mark) {
@@ -172,7 +168,6 @@
 // console.log(findPassFail(40));
 
 // console.log(result);
-
 
 // Data Structure
 
@@ -242,10 +237,8 @@
 //     console.log(x, markObj[x], findPassFail(markObj[x]));
 // }
 
-
 // console.log(studentMarks);
 // _________________________________________________________________________________________________________________________________________________________________________________________
-
 
 // lopping
 // for (let i=0; i<=6; i++) {
@@ -262,10 +255,8 @@
 //     console.log(i);
 // }
 
-
 // let myName = "Htet Myat Maung";
 // console.log(`I'm ${myName} !`);
-
 
 // const fruits = [ "Apple", "Orange", "Mango", "Lame"];
 
@@ -305,7 +296,7 @@
 
 // const obj = {};
 
-// let z = "c"
+// let z = "c";
 
 // obj.a = "aaa";
 // obj.b = "bbb";
@@ -315,3 +306,81 @@
 // console.log(obj.a);
 // console.log(obj["b"]);
 // console.log(obj[z]);
+
+// const name = "Mg Mg";
+// let age = 18;
+// let township = "Kyauk Myaung"
+
+// let pocketMoney = 200;
+// let orangePrice = 50;
+// pocketMoney -= orangePrice;
+// console.log(pocketMoney);
+
+// const bag =["Myanmar book", "English book", "Bio book"];
+// let pen = false;
+
+// let canMgMgFriSmoke = true;
+// let canMgMgSmoke = false;
+
+// let Information = {
+//     name,
+//     age,
+//     township,
+//     canSmoke: false
+// };
+
+// let student1 = {
+//     name: "Kyaw Kyaw",
+//     age:  18,
+//     township: "hlaing",
+//     canSmoke: true
+// };
+
+// let student2 = {
+//     name: "Zaw Zaw",
+//     age:  18,
+//     township: "hlaing",
+//     canSmoke: true
+// };
+
+// let student3 =  {
+//     name: "Su Su",
+//     age:  18,
+//     township: "hlaing",
+//     canSmoke: false
+// };
+
+// const students = [
+//     student1,
+//     student2,
+//     student3,
+//     Information
+// ];
+
+// console.log(students);
+// console.table(students);
+
+// function run(){
+//     console.log("Hello MMS");
+// };
+
+// run();
+
+// function star() {
+//   console.log("*");
+//   console.log("* *");
+//   console.log("* * *");
+//   return "no return will be undefined and code under return will not working";
+//   console.log("* * * *");
+// };
+
+// console.log(star());
+
+// function area(width=0,height=0) {
+//     console.log(width);
+//     console.log(height);
+//     return width * height
+// };
+// console.log(area());
+// console.log(area(20,50));
+// console.log(area(12,60));

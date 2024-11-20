@@ -1,0 +1,60 @@
+let x; //Variable declaring
+x = 5; //Assign a value to a variable
+let y = 10 + x;
+x = 7; //reassign a value
+
+
+Naming Convention
+- A letter (A-Z or a-z)
+- A dollar sign ($)
+- Or a underscore (_)
+- case sensitive
+
+
+
+Javascript Operators
+- Arithmetic Operators (တွက်ချက်)
+    ( +, -, /, *, **, %, ++, --)
+
+- Assignment Operators (သတ်မှတ်)
+    (=, +=, -=, *=, /=, %=, **=)
+
+- String Operators (+)
+    (string အချင်း"ပေါင်းရင် 
+    string concutanation)
+
+- Comparison Operators (နှိုင်းယှဥ်) 
+    (bolean တန်ဖိုးပဲထွက်မယ်)
+    ( ==(တူညီလား), ===, !=, !==, >, <, >=, <==, ?)
+
+- Logical Operators (တစ်ခုထက်ပိုနှိုင်းယှဥ်)
+    ( &,||,!)
+
+for..of
+- Array ကို loop ပတ်ဖို့
+- Object ကို for of နဲ့ပတ်လို့မရ
+
+for..in
+- Object ကို loop ပတ်ဖို့
+
+
+- ${expression};
+- [] construction ဆောက်တဲ့အခါ 
+    index မကျော်ဖို့သတိထားရမယ်,
+    သတိမထားရင် empty and length 
+    တွေပြောင်းသွားတတ်တယ်.
+
+- Object မှာ Key and Value ကတူနေခဲ့မယ်ဆိုရင်
+ ၂ခါရေးစရာမလိုဘူး Es6 မှာ တစ်ခါပဲရေးလို့ရတယ်,
+
+function area(width,height) {
+    return width * height
+};
+- width and height is called parameter
+
+area(16,60);
+- 16 and 60 is called arguments
+
+- function က hoisting support ပေးပါတယ်, 
+  declare မလုပ်ခင်ကတည်းက involked လုပ်လို့ရတယ်
+- var က hoisting support ပေးပါတယ်

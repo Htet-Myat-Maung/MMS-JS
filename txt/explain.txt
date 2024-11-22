@@ -1,0 +1,14 @@
+- vs code ထဲမှာ code ရေးနေတုန်းအချိန်ဆို "developing time"လို့ခေါ်တယ်
+- default browser ကနေ run ပြီဆို "run time enviroment"လို့ခေါ်တယ်
+
+- Variable တွေက stack memory ပေါ်မှာနေရာယူပြီး
+  Objects တွေက heap memory ပေါ်မှာနေရာယူတယ်
+
+- stack data structure (linear data structure)
+    A stack is a data structure 
+    that follows a last in, first out (LIFO) protocol. 
+    The latest node added to a stack is the node 
+    which is eligible to be removed first. 
+    If three nodes ( a , b and, c ) are added 
+    to a stack in this exact same order, 
+    the node c must be removed first.

@@ -1,0 +1,17 @@
+- function ထဲမှာ if statement ထည့်သုံးတဲ့အခါ 
+  else and else if ကိုထည့်မသုံးတာမျိုးလဲရှိ
+
+- conditional expression မှာဆိုရင် 
+  (Tinary operator-?) ကိုအသုံးများပါတယ်
+
+- Logical AND && ကအကုန်မှန်မှမှန်တယ်
+
+- Logical OR || ကအကုန်မှားမှမှားတယ်
+
+- Logical NOT !  
+  ! NOT will be false and 
+  !! NOT will be true and
+  !!! NOT will be false
+
+
+- To know truthy and falsy

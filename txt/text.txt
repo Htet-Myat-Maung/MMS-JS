@@ -58,3 +58,6 @@ area(16,60);
 - function က hoisting support ပေးပါတယ်, 
   declare မလုပ်ခင်ကတည်းက involked လုပ်လို့ရတယ်
 - var က hoisting support ပေးပါတယ်
+
+
+*** - All notes are from script.js and fun.js

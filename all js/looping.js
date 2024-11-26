@@ -74,42 +74,42 @@
 // }
 
 
-const students = [
-    {
-      id: 1,
-      name: "John Doe",
-      age: 20,
-      gender: "Male",
-      township: "Riverdale"
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      age: 22,
-      gender: "Female",
-      township: "Brooklyn"
-    },
-    {
-      id: 3,
-      name: "Alex Johnson",
-      age: 19,
-      gender: "Non-binary",
-      township: "Greenwich"
-    },
-    {
-      id: 4,
-      name: "Emily Davis",
-      age: 21,
-      gender: "Female",
-      township: "Sunset Bay"
-    },
-    {
-      id: 5,
-      name: "Michael Brown",
-      age: 23,
-      gender: "Male",
-      township: "Hilltop"
-    }
+// const students = [
+//     {
+//       id: 1,
+//       name: "John Doe",
+//       age: 20,
+//       gender: "Male",
+//       township: "Riverdale"
+//     },
+//     {
+//       id: 2,
+//       name: "Jane Smith",
+//       age: 22,
+//       gender: "Female",
+//       township: "Brooklyn"
+//     },
+//     {
+//       id: 3,
+//       name: "Alex Johnson",
+//       age: 19,
+//       gender: "Non-binary",
+//       township: "Greenwich"
+//     },
+//     {
+//       id: 4,
+//       name: "Emily Davis",
+//       age: 21,
+//       gender: "Female",
+//       township: "Sunset Bay"
+//     },
+//     {
+//       id: 5,
+//       name: "Michael Brown",
+//       age: 23,
+//       gender: "Male",
+//       township: "Hilltop"
+//     }
   ];
   
 

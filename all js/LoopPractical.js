@@ -595,9 +595,9 @@ const allStudentsMark = [
 // console.log(totalMark);
 
 
-const  passOrFail = function (mark)  {
-    return mark >= 40 ? "passed" : "failed"
-}
+// const  passOrFail = function (mark)  {
+//     return mark >= 40 ? "passed" : "failed"
+// }
 
 // let overAllResult = "passed";
 
@@ -615,31 +615,35 @@ const  passOrFail = function (mark)  {
 // console.log(overAllResult);
 
 
-for (el of allStudentsMark) {
-    console.log(el);
-    el.overAllResult  = "passed";
-    el.distinction = 0;
+// for (el of allStudentsMark) {
+//     console.log(el);
+//     el.overAllResult  = "passed";
+//     el.distinction = 0;
 
-    for(mark of el.marks){
-        // console.log(mark);
-        const resultBySubject = passOrFail(mark.mark);
-        mark.result = resultBySubject;
+//     for(mark of el.marks){
+//         // console.log(mark);
+//         const resultBySubject = passOrFail(mark.mark);
+//         mark.result = resultBySubject;
 
-        if(resultBySubject === "failed"){
-            el.overAllResult = "failed"
-        }
+//         if(resultBySubject === "failed"){
+//             el.overAllResult = "failed"
+//         }
 
-        if(mark.mark >= 80) {
-            el.distinction += 1;
-        }
-    }
-}
+//         if(mark.mark >= 80) {
+//             el.distinction += 1;
+//         }
+//     }
+// }
 
-console.table(allStudentsMark);
+// console.table(allStudentsMark);
+
+
 // Problems
 // 1. marks, studentMark စုစုပေါင်း ရေးပြပါ
 // 2. studentMark မှဘာသာရပ်တစ်ခုစီ ကျရှံးတွက်ပေးပါကြရှုံး
 // 3. over all အောင်မြင်၊ ကျရှုံးတွက်ပေးပါ
 // 4. ကျောင်းသားအားလုံး အောင်မြင်၊ ကျရှုံးတွက် ပေးပါ
 // 5. အောင်မြင်တဲ့လူတွေဆို Distinction ပါရင် ထည့်ရည်တွက်ပေးပါ
+
+
 

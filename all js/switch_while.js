@@ -34,13 +34,19 @@ console.log("switch", "while", "do...while", "delete", "in", "typeOf", "this");
 //   x++;
 // } while (x <= 5);
 
-// let person = {
-//   firstName: "htet myat",
-//   lastName: "maung",
-//   age: 21,
-// };
+// let person = [
+//   "htet myat",
+//   "maung",
+//   21,
+//   {
+//     firstName: "htet myat",
+//     lastName: "maung",
+//     age: 21,
+//   },
+// ];
 
 // delete person.lastName;
+// delete person[2];
 
 // console.log(person);
 
@@ -68,10 +74,10 @@ console.log("switch", "while", "do...while", "delete", "in", "typeOf", "this");
 // console.log(typeof 0);
 // console.log(typeof null);
 
-const test = {
-  num: 2,
-  fun: function () {
-    return this.num;
-  },
-};
-console.log(test.fun());
+// const test = {
+//   num: 2,
+//   fun: function () {
+//     return this.num;
+//   },
+// };
+// console.log(test.fun());
